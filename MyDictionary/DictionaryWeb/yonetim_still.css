@@ -1,0 +1,92 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+#dis_alan {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#banner {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	background-color: #F30;
+	color: #FFF;
+	height: 40px;
+	width: 1000px;
+	text-align: center;
+	padding-top: 10px;
+}
+#navigasyon {
+	height: 30px;
+	width: 1000px;
+	float: left;
+	background-image: url(Image/bg_navigasyon.gif);
+}
+#gorev {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #390;
+	height: 20px;
+	width: auto;
+	margin-left: 50px;
+	padding-top: 5px;
+	float: left;
+}
+#icerik_alani {
+	float: none;
+	height: auto;
+	width: 1000px;
+}
+#icerik {
+	height: auto;
+	width: 750px;
+	float: left;
+}
+#buttonlar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#buttonlar ul li {
+}
+#buttonlar ul li a {
+	display: block;
+	width: 200px;
+	margin-left: 25px;
+	height: 25px;
+	padding-top: 5px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #033;
+	background-image: url(Image/bg_button.gif);
+}
+#buttonlar ul li a:hover {
+	color: #66C;
+}
+#buttonlar {
+	float: left;
+	height: auto;
+	width: 250px;
+}
+
+
+#adsoyad {
+	height: 20px;
+	width: auto;
+	margin-left: 50px;
+	padding-top: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #306;
+	font-size: 14px;
+	float: left;
+	font-weight: bold;
+}

@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DictionaryWeb.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   
+    <style type="text/css">
+        .auto-style3 {
+            width: 729px;
+        }
+        .auto-style1 {
+            margin-left: 323px;
+            margin-bottom: 0px;
+            height: 96px;
+        }
+        #form1 {
+            width: 1079px;
+            margin-left: 19px;
+        }
+    </style>
+   
+</head>
+<body style="background-color:lavender">
+    <form id="form1" runat="server">
+     
+    <div style="margin-left: 467px"><asp:Menu ID="MenuItems" runat="server" BackColor="#FF6600" BorderStyle="Solid" DynamicHorizontalOffset="2" Font-Names="Sitka Heading" Font-Size="Large" ForeColor="White" Font-Bold="True" Font-Underline="True" Orientation="Horizontal" Font-Strikeout="False" Width="390px">
+                        <DynamicHoverStyle BackColor="#6600FF" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#FFFBD6" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <Items>
+                            <asp:MenuItem Text="Anasayfa" Value="Anasayfa" NavigateUrl="~/UserPages/Default.aspx" ToolTip="Anasayfa"></asp:MenuItem>
+                            <asp:MenuItem Text="Kelime Kaydet" Value="Kelime Kaydet" NavigateUrl="~/UserPages/SaveWordInfo.aspx" ToolTip="Kelime Kayıt Eder"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/UserPages/WordExam.aspx" Text="Kelime Oyunu" Value="Kelime Oyunu" ToolTip="Kelimelerinle Oyna"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/LoginPages/Login.aspx" Text="Çıkış" Value="Çıkış" ToolTip="Sistemden Çıkış Yapar"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                    </asp:Menu>
+                    </div>
+        <table class="auto-style1">
+            <tr style="vertical-align:central">
+                <td style="vertical-align: top" class="auto-style3">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:ContentPlaceHolder ID="head" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

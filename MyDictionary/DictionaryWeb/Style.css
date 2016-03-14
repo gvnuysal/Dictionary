@@ -1,0 +1,58 @@
+﻿@import url(normalize.css);
+
+body{
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 14px;
+    background: gainsboro;
+}
+#container{
+    width: 960px;
+    position: relative;
+    margin: 5px auto;
+    border: 1px solid black;
+    background: white;
+}
+
+/* *** header *** */
+
+header{
+    width: 960px;
+    height: 120px;
+    position: relative;
+    background: goldenrod;
+}
+
+/* *** nav *** */
+
+nav{
+    width: 960px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    position: relative;
+    background: teal;
+}
+
+/* *** content *** */
+
+#content{
+    width: 920px;
+    padding: 20px;
+    height: 400px; /*silinecek*/
+    position: relative;
+    text-align: justify;
+    background: royalblue;
+}
+
+/* *** footer *** */
+
+footer{
+    width: 960px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    border-top: 1px solid black;
+    color: white;
+    background: darkblue;
+}

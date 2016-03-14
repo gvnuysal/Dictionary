@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="DictionaryWeb.UserPages.admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../../yonetim_still.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 600px;
+        }
+        .auto-style2 {
+            width: 309px;
+        }
+        .auto-style3 {
+            width: 182px;
+        }
+        .auto-style5 {
+            width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+            <div id="dis_alan">
+    	<div id="banner">Admin Paneli</div>
+        <div id="navigasyon">
+        	<div id="adsoyad">Ad Soyad : Gamze Çakıl</div>
+            <div id="gorev">Görevi : Yönetici</div>
+        </div>
+        <div id="icerik_alani">
+        	<div id="buttonlar">
+           	  <ul>
+            	  <li><a href="GroupManagement.aspx">Grup Yönetimi</a></li>
+                    <li><a href="AdminManagement.aspx">Admin Yönetimi</a></li>
+          	  </ul>
+        	</div>
+            <div id="icerik">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
